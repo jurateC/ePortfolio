@@ -1,2 +1,2 @@
-### Juate Compton
-## e-Portfolio Website
+## Jurate Compton
+### e-Portfolio Website
