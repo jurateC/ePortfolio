@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <title>Jurate's Compton ePortfolio survey page</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Jurate Compton">
+        <meta name="keywords" content="HTML, CSS">
+        <meta name="description" content="Jurate Compton personal ePortfolio survey page">
+    </head>
+    <body>
+        <header id="headerhome" class="row">
+            <div class="col">
+                <img id="logo" src="images/Jurate.png" alt="Logo of Jurate's Compton ">
+                <h3 class="font">ePortfolio</h3>
+            </div>
+            <div id="cdm" class="col">
+                <a class="letters" id="tud" href="https://www.tudublin.ie/" target="_blank">TU Dublin</a>
+                <h2 >Creative Digital Media<br>2020-2021</h2>
+            </div>
+        </header>
+        <nav>
+            <ul class="menu">
+                <li class="menu"><a class="letters" href="index.html">Home</a></li>
+                <li class="menu dropdown"><a class="letters" href="semester1.html">Semester One</a>
+                    <ul class="drop-nav">
+                        <li class="menu"><a class="letters" href="creativedev.html">Creative Development</a></li>
+                        <li class="menu"><a class="letters" href="web1.html">Web Development1</a></li>
+                        <li class="menu"><a class="letters" href="digphoto.html">Digital Photography</a></li>
+                        <li class="menu"><a class="letters" href="visual.html">Visual Creativity</a></li>
+                        <li class="menu"><a class="letters" href="Introdm.html">Introduction to DM</a></li>
+                    </ul>
+                </li>
+                <li class="menu dropdown"><a class="letters active" href="semester2.html">Semester Two</a>
+                    <ul class="drop-nav">
+                        <li class="menu"><a class="letters" href="designprocess.html">Design Process and Practice</a></li>
+                        <li class="menu"><a class="letters" href="web2.html">Web Development2</a></li>
+                        <li class="menu"><a class="letters" href="portraitphoto.html">Studio Photography and Image Production</a></li>
+                        <li class="menu"><a class="letters" href="storytelling.html">Storytelling and Narrative</a></li>
+                        <li class="menu"><a class="letters" href="universaldesign.html">Universal Design</a></li>
+                    </ul>
+                </li>
+                <li class="menu"><a class="letters" href="contacts.html">Contacts</a></li>
+                <li class="menu"><a class="letters" href="sitemap.html">Site Map</a></li>
+            </ul>
+        </nav>
+        
+        <div class="head2">
+            <h1 class="font">Survey</h1>
+        </div>
+        
+        <main>
+            <form id="form" action="users.html" method="get" enctype="multipart/form-data">
+                <fieldset>            
+                    <legend>About you</legend>
+
+                    <div>
+                        <p class="questions">Please tell me a little about yourself.</p>
+                        <p class="group">Gender:</p>
+                    </div>
+                    <div class="padding">
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="male">Female</label>
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="male">Other</label>
+                    </div>
+                    <div>
+                        <div class="group">
+                            <label for="age">Age group</label>
+                        </div>
+                        <div>
+                            <select name="age" id="age" multiple>
+                                <option value="15-20">15-20</option>
+                                <option value="20-25">20-25</option>
+                                <option value="25-30">25-30</option>
+                                <option value="30-40">30-40</option>
+                                <option value="40-50">40-50</option>
+                                <option value="50+">50+</option>
+                            </select>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>About Course</legend>
+                    <div class="gap_top">
+                        <table class="table_centre">
+                        <tr>
+                            <th></th>
+                            <th>Strongly agree</th>
+                            <th>Agree</th>
+                            <th>Not sure</th>
+                            <th>Disagree</th>
+                            <th>Strongly disagree</th>
+                        </tr>
+                        <tr>
+                            <th>I like this course</th>
+                            <td><input type="radio" id="sa-1" name="I like this course" value="Strongly agree"></td>
+                            <td><input type="radio" id="a-1" name="I like this course" value="Agree"></td>
+                            <td><input type="radio" id="na-1" name="I like this course" value="Not sure"></td>
+                            <td><input type="radio" id="d-1" name="I like this course" value="Disagree"></td>
+                            <td><input type="radio" id="sd-1" name="I like this course" value="Strongly disagree"></td>
+                        </tr>
+                        <tr>
+                            <th>I would choose this course again</th>
+                            <td><input type="radio" id="sa-2" name="I would choose this course again" value="Strongly agree"></td>
+                            <td><input type="radio" id="a-2" name="I would choose this course again" value="Agree"></td>
+                            <td><input type="radio" id="na-2" name="I would choose this course again" value="Not sure"></td>
+                            <td><input type="radio" id="d-2" name="I would choose this course again" value="Disagree"></td>
+                            <td><input type="radio" id="sd-2" name="I would choose this course again" value="Strongly disagree"></td>
+                        </tr>
+                        </table>
+                        </div>
+                        <div class="gap_top">
+                            <div>
+                                <p class="questions">If CDM was a colour, what colour it would be?</p>
+                                <textarea cols="50" rows="4" form="form" name="Q1"></textarea>
+                            </div>
+                            <div>
+                                <p class="questions">What first comes to your head when you think of the word creative?</p>
+                                <textarea cols="50" rows="4" form="form" name="Q2"></textarea>
+                            </div>
+                            <div>
+                                <p class="questions">What made you choose this course?</p>
+                                <textarea cols="50" rows="4" form="form" name="Q3"></textarea>
+                            </div>
+                            <div>
+                                <p class="questions">What is different about TU Dublin CDM than other colleges</p>
+                                <textarea cols="50" rows="4" form="form" name="Q4"></textarea>
+                            </div>
+                            <div>
+                                <p class="questions">What was one thing you wanted most to learn when starting this course?</p>
+                                <textarea cols="50" rows="4" form="form" name="Q5"></textarea>
+                            </div>
+                        </div>
+                        <p class="questions gap_top">Which module is your favourite</p>
+                    <div class="padding">
+
+                        <input type="checkbox" id="module1" name="favourite 1" value="Introduction To Digital Media">
+                        <label for="module1">Introduction To Digital Media</label><br>
+
+                        <input type="checkbox" id="module2" name="favourite 2" value="Web 1">
+                        <label for="module2">Web 1</label><br>
+
+                        <input type="checkbox" id="module3" name="favourite 3" value="Photography">
+                        <label for="module3"> Photography</label><br>
+
+                        <input type="checkbox" id="module4" name="favourite 4" value="Visual Creativity">
+                        <label for="module4"> Visual Creativity</label><br>
+
+                        <input type="checkbox" id="module5" name="favourite 5" value="Creative Development">
+                        <label for="module5">Creative Development</label><br>
+                        <input type="checkbox" id="module6" name="favourite 6" value="Universal Design">
+                        <label for="module6">Universal Design</label><br>
+
+                        <input type="checkbox" id="module7" name="favourite 7" value="Web 2">
+                        <label for="module7">Web 2</label><br>
+
+                        <input type="checkbox" id="module8" name="favourite 8" value="Storytlling and Narative">
+                        <label for="module8"> Storytlling and Narative</label><br>
+
+                        <input type="checkbox" id="module9" name="favourite 9" value="Studio Photography and Image Manipulation">
+                        <label for="module9"> Studio Photography and Image Manipulation</label><br>
+
+                        <input type="checkbox" id="module10" name="favourite 10" value="Design Process and Practice">
+                        <label for="module10">Design Process and Practice</label><br>
+
+                    </div>
+                </fieldset>
+                <fieldset>
+                        <div class="buttons group">
+                            <button type="submit">Submit</button>
+                        </div>
+                        <div class="buttons group">
+                            <button type="reset">Clear</button>
+                        </div>
+                </fieldset>
+            </form>
+        </main>
+        <img id="imgDesk" src="images/desk1.jpg" alt="Image of the book,keybbord and watch on the desk">
+        <footer>
+            <div class="box">
+                <div class="text_left">
+                    <h6 class="footertext">Jurate Compton</h6><br>
+                </div>
+                <div>
+                    <h6 class="text_right"><a class="pdf_link" href="sitemap.html">Site Map</a></h6>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

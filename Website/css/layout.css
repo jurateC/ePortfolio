@@ -1,0 +1,183 @@
+.navigation {
+    display: flex;
+    height: auto;
+    padding: 20px;
+    background-color: black;
+} /* the class navigation is for styling the navigation bar*/
+
+.title {
+    display: inline;
+} /* the class title is for the 3 words to stay in line*/
+
+a.menu-anchor-items:hover {
+    background-color: orange;
+    color: yellow;
+} /*this selector is  for only anchor tags with the class menu-ancor-items when you mose over it */
+
+ul.menu-list {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 20px;
+} /*this selector is only for ul with class menu-list. It is applying for menu only, but not the site map */
+
+li.menu-list-items {
+    font-family: "Optima", sans-serif;
+    display: inline;
+} /*this selector is only for li with class menu-list-items */
+
+.menu-anchor-items {
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #F7A60E;
+    background-color: floralwhite;
+    padding: 20px;
+    font-size: 20pt
+} /* The class menu-anchor-items is for styling the links in the menu only */
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.resize-img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+} /* resize-img class is for resizing images*/
+
+body {
+    background-color: #F3CF08;
+} 
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 60px;
+    color: black;
+} 
+
+h2 {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    justify-content: center;
+} 
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 40px;
+    color: black;
+} 
+
+h4 {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+} 
+
+h5 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    color: black;
+} 
+
+.row {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 0 auto;
+    padding-top: 20px;
+} /*the class row is for styling full with row */
+
+.row-narrow {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 10px;
+} /*The class row-narrow is for styling a narrow row*/
+
+.clm2 {
+    width: 50%;
+    height: 100%;
+    margin: 20px;
+} /*the class clm2 is for styling 2 columns per row  */
+
+.clm3 {
+    width: 33.33%;
+    padding: 1%;
+    margin: auto;
+    justify-content: space-around;
+    object-fit: contain;
+    text-align: center;
+} /*The class clm3 is for styling 3 columns per row*/
+
+.bordered-text-clm2 {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    height: 100%;
+    border-style: solid;
+    border-color: #F7A60E;
+    border-width: thick;
+    width: 50%;
+} /*class border-text-clm2 is for the border around the text */
+
+.active {
+    background-color: #F7A60E;
+    color: white;
+} /*the class active changes the colour of the active item. */ 
+
+.back {
+    text-transform: uppercase;
+    background-color: black;
+    color: #F7A60E;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    text-decoration: none;
+    justify-content: center;
+    display: block;
+} /*The class back is for styling the back button on sub pages*/
+
+p {
+    color: black;
+    display: block;
+    padding: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.textcentred {
+    text-align: center;
+} /* the class textcentre is for centering text*/
+
+.charnav {
+    display: block;
+    text-decoration: none;
+    font-size: 21pt;
+    color: black;
+    object-fit: contain;
+    font-family: 'Source Sans Pro', sans-serif;
+} /* The class charnav is for styling links to subpages*/
+
+.trailer {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+} /*the class trailer is for fitting the youtube clip */
+
+hr {
+    border: 1px solid black;
+} 
+
+iframe {
+    border: 0;
+} 

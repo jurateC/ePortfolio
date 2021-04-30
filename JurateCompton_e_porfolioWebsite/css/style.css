@@ -1,0 +1,856 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.trimlink{
+    display: inline;  /*----------------------------for Trim link on index page */
+    color: orange;
+    text-decoration: underline;
+    
+}
+.trimword a:hover{
+    color: cornflowerblue;
+
+}
+
+             /*  ------------------------- Header   */
+             
+h3 {
+    color: whitesmoke;          /*----------------------------ePosrtfolio*/
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+h2 {
+    font-size: 40px;
+    padding-top: 40px;
+    /*----------------------Digital Media and     Semester 1 and 2*/
+    color: #e3e0cf;
+    text-align: center;
+}
+
+#headerhome {
+    background-color: #9fa8a3;
+    
+}
+
+header {
+    background-color: whitesmoke;
+    margin-top: 20px;
+    padding: 10px;
+    border: 4px solid #9fa8a3;
+    border-radius: 15px;
+}
+#logo {
+    width: 350px;
+    margin-bottom: 40px;
+    margin-left: 10%;
+    /*------------------ my logo in the header  */
+}
+
+.font {
+    /*-------------------------- portfolio word in the header */
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 15%;
+}
+
+#tud {
+    font-size: 35px;
+    /*----------------------------- TU Dublin link*/
+    text-align: center;
+    display: block;
+    text-decoration: underline;
+}
+
+#cdm {
+    margin-top: 80px;
+    /*--------------------------The right side of the header-----------*/
+    margin-bottom: -90px
+}
+
+.col {
+    width: 50%;
+    padding: 2%;
+    /*------------------header-------------------*/
+}
+
+.row {
+    display: flex;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+
+/* ---------------------------  navigation----------------   */
+
+nav {
+    display: flex;
+    height: auto;
+    padding: 5px;
+    background-color: #e3e0cf;
+    border-radius: 15px;
+}
+
+.letters {
+    color: whitesmoke;
+}
+
+.drop-nav {
+    position: absolute;
+    display: none;
+    z-index: 2;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.drop-nav li {
+    border-bottom: 1px solid grey;
+}
+
+.dropdown:hover>.drop-nav {
+    display: block;
+}
+
+li.menu {
+    display: inline-block;
+    font-size: 28px;
+    padding: 10px;
+    margin-bottom: 5px;
+                        /*-----------nav ul and li--------------- */
+    margin-top: 5px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 15px;
+    border-color: #c5d5cb;
+    background-color: #9fa8a3;
+}
+
+ul.menu {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 5px;
+    z-index: 1;
+}
+ul.drop-nav li{
+    font-size: 14px;
+    border: 2px solid #c5d5cb;
+    width: 130px;
+}
+.active{                 /*---------active in nav----------*/
+    border-bottom-style: solid;
+}
+
+
+                        /* ---------------Body-----------------------*/
+body {
+    background-image: url(../images/Untitled-1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 100px;
+
+}
+
+
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+    margin: 10px 10px;
+    padding: 10px;
+}
+
+
+
+#pic {
+    max-width: 30%;
+    height: auto;
+                              /*-------------------------- my portrait on index page------------*/
+    float: right;
+    margin-left: 5px;
+    border: 3px solid white;
+    border-radius: 15px;
+}
+
+
+#imgDesk {
+    display: block;
+                            /*-------img underneath of body in index.html------*/
+    width: 100%;
+    border-style: solid;
+    border-top-width: 20px;
+    border-color: #e3e0cf;
+    border-radius: 15px;
+}
+
+
+/*-------------------Footer----------------*/
+
+footer {
+    background-color: #9fa8a3;
+    width: 100%;
+    border-style: solid;
+    border-top-width: 20px;
+    border-color: #e3e0cf;
+    border-radius: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 70%;
+
+}
+
+.text_left{
+    float: left;
+    width: 100px;
+                      /*----------footer left----------------*/
+    height: 50%;
+}
+
+.text_rigt {
+    float: right;
+    width: 100%;
+                     /*---------footer right-------------*/
+    height: 50%;
+}
+
+.box {
+    width: 80%;
+    height: 60px;
+    margin: auto;
+    padding-top: 7px;
+                      /*----footer main box for centering content*/
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.footertext {
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+main{
+    width: 100%;
+    border-radius: 15px;
+    border: 2px solid #9fa8a3;
+    background-color: whitesmoke ;
+}
+
+
+
+h1 {
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /*----------------------- content headers*/
+    color: #e3e0cf;
+    text-align: center;
+}
+
+.head2 {
+    /*--------------------------- content headers */
+    background-color: #9fa8a3;
+    border-radius: 15px;
+}
+
+.blocks {
+    display: block;
+    height: 90px;
+    background-color: #e3e0cf;
+                                   /* ----------------------------semester 1 and 2 pages for the corse names*/
+    padding-top: 30px;
+    border: #9fa8a3;
+    border: 5px outset #a8b0ac;
+    border-radius: 15px;
+}
+
+h4 {
+    display: block;
+    color: #9fa8a3;
+    
+    /*----------------------------------names of 10 courses*/
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 24px;
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+.centredblocks {
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+}
+
+.name {
+    font-style: italic;
+    /* -------------------------------lecturers names in course's pages*/
+    font-weight: lighter;
+    font-size: 32px;
+}
+
+h5 {
+    text-align: center;
+    font-size: 40px;
+    /*--------------------------- Name of the course of course page */
+    color: #9fa8a3;
+    padding-bottom: 30px;
+}
+
+
+/* --------------------------------digital Photography page---------*/
+
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 24.3%);
+    grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr;
+    grid-column-gap : 1%;
+    grid-row-gap: 2px;
+    border: solid 3px white;
+    border-radius: 15px;
+    width: 100%;
+    
+}
+
+.gallery_img {
+    width: 100%;
+    height: 100%;
+}
+/*.pbackground{
+    background-color: white;
+    padding: 5;
+    margin: 0;
+    border-radius: 15px;
+}*/
+
+/*------------------------Trim page-------------*/
+.trimimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+}
+
+
+#gridcontainer {
+    display: grid;
+    grid-gap: 10px;
+    background-color: whitesmoke;
+    grid-template-columns: 1fr 2fr 1fr 1fr 3fr 3fr 2fr 2fr 2fr 2fr;
+    grid-template-rows: 1fr 2fr 2fr 1fr 1fr 2fr 2fr 2fr 2fr 1fr 1fr 1fr 1fr;
+    grid-auto-flow: dense;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#sheepgate {
+    grid-column: 4 / 6;
+    grid-row: 1 / 4;
+}
+#flowers {
+    grid-column: 6 / 7 ; 
+    grid-row: 2 / 3;
+}
+#fog {
+    grid-column: 6  /9; 
+    grid-row: 3 / 5;
+}
+#baloon {
+    grid-column: 3 / 6; 
+    grid-row: 4 / 9;
+}
+#castle {
+    grid-column: 6 / 8; 
+    grid-row: 5 / 8;
+}
+#trim {
+    grid-column: 8 / 11;
+    grid-row: 5 / 7;
+}
+#river {
+    grid-column: 1 / 3; 
+    grid-row: 6 / 8;
+}
+#sunset {
+    grid-column: 8 / 10; 
+    grid-row: 7 / 8;
+}
+#church  {
+    grid-column: 6 / 7;
+    grid-row: 8 / 11;
+}
+#throughfence {
+    grid-column: 7 / 9; 
+    grid-row: 8 / 10;
+}
+#moon {
+    grid-column: 2 / 5;
+    grid-row: 9 / 12; 
+}
+#rainbow {
+    grid-column: 5 / 6;
+    grid-row: 9 / 14; 
+}
+#sunrise {
+    grid-column: 6 / 8;
+    grid-row: 11 / 13; 
+}
+
+.floatingtext {
+    position: absolute;
+    top: 80%;
+  
+
+}
+
+#gridtext{
+    opacity: 0.5;
+    font-size: 40px;
+    color: #9fa8a3;
+
+}
+
+/*------------Web 1--------------*/
+.film{
+    color: 	#FFD700;
+    text-decoration: underline;
+    font-size: 21px;
+}
+ a.film:hover{
+    color: cornflowerblue;
+}
+.webimggrid{
+    display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+    "a b";
+    
+    
+}
+.grid-left {
+  grid-area: a;
+    padding: 20px;/* used also for creative dev*/
+}
+.grid-right {
+  grid-area: b;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.zoom{
+    transition: transform 0.5s;
+}
+.zoom:hover{
+    transform: scale(1.1);
+    transform: scale(1.1);
+    transform: scale(1.1); 
+}
+/* ---creative development-----*/
+#maingrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "a b"
+    "c d";
+    padding: 30px 10px 10px 10px;
+}
+.bottom-right{
+    grid-area: d;
+
+}
+bottom-left{
+    grid-area: c;
+}
+.pstyle{
+    padding: 20px;
+    
+    
+}
+.imgstyling{
+    display: block;
+    width: 90%;
+    border: solid 3px black;
+}
+/*---visual crativity-----*/
+
+#visualgrid{
+    display: grid;
+    grid-template-columns: 3fr 2fr 1fr 4fr;
+    grid-template-rows: 2fr 3fr 3fr 3fr;
+    grid-auto-flow: dense;
+    
+}
+.size{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: solid 3px #9fa8a3;
+    border-radius: 15px;
+    
+}
+#writing{
+   grid-column: 1 / 5;
+    grid-row: 1 / 2;
+    font-size: 23px;
+    padding: 10px;
+}
+#eight{
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+}
+#seventh{
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+}
+#second{
+    grid-column: 3 / 5;
+    grid-row: 2 / 3;
+}
+#fifth{
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+}
+#third{
+    grid-column: 3 / 5;
+    grid-row: 3 / 4;
+}
+#fourth{
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+#first{
+    grid-column: 2 / 4;
+    grid-row: 4 / 5;
+}
+#sixth{
+    grid-column: 4 / 5;
+    grid-row: 4 / 5;
+}
+/*------Universal design-----*/
+.round{
+    border-radius: 50%;
+    max-width: 10%;
+    min-width: 250px;
+    height: auto;
+    float: left;
+    shape-outside: circle(50%);
+    shape-margin: 5px;
+}         
+/*studio photography*/
+#grid_box{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    grid-template-rows: 2fr 3fr 2fr 3fr;
+    grid-auto-flow: dense;
+    grid-gap: 3px;
+}
+.img_box {
+    width: 100%;
+    height: 100%;
+
+}
+#makeup{
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    
+}
+#shoes{
+    grid-column: 3 / 5;
+    grid-row: 1 / 2;
+}
+#aftershave{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+#mojito{
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+}
+#both{
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+}
+#me{
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+}
+#jam{
+    grid-column: 3 / 5;
+    grid-row: 3 / 4;
+}
+#split{
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+#butterfly{
+    grid-column: 2 / 4;
+    grid-row: 4 / 5;
+}
+#triangle{
+    grid-column: 4 / 5;
+    grid-row: 4 / 5;
+}
+.pdf_link{
+    display: block;
+    color: orange;
+    text-align: center;/*The styling of PDF links and return to the Design page*/
+    padding: 20px;
+    font-size: 18px;
+    text-decoration: underline;
+}
+a.pdf_link:hover{
+    color: cornflowerblue; 
+}
+
+/*------survey------*/
+table,th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+   
+}
+th, td {
+  padding: 1%;
+}
+.table_centre{
+     width: 80%;
+    margin-left: 10%;
+    
+}
+
+fieldset{
+    margin: 20px;
+}
+.gap_top{
+    padding-top: 30px;
+    
+}
+.radio_table{
+}
+.padding{
+    padding-left: 40px;
+    padding-bottom: 20px;
+    
+}
+textarea{
+    border-radius: 5px;
+    height: 80px;
+    width: 80%;
+    box-sizing: border-box;
+    margin-left: 40px;
+    padding: 10px;
+}
+#sa-1, #a-1, #na-1, #d-1, #sd-1, #sa-2, #a-2, #na-2, #d-2, #sd-2 {
+    margin-left: 50%
+}
+legend{
+    color: #9fa8a3;
+    border: 1px solid  #9fa8a3;
+}
+.questions{
+    font-size: 20px;
+    padding-left: 40px;
+    font-weight: bolder;
+    
+}
+
+label p{
+    display: inline;
+    padding: 0;
+    margin: 0;
+    padding-left: 5px;
+}
+#age{
+    margin-left: 40px; 
+    margin-bottom: 20px;
+}
+.group{
+    margin-left: 40px;
+    margin-bottom: 5px
+}
+button{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: solid 3px #8f9792;
+    background-color: #9fa8a3;
+    font-weight: bold;
+    color: whitesmoke;
+}
+button:hover{
+    background-color: #e3e0cf;
+}
+.buttons{
+    display: inline;
+}
+/*disign process and practice*/
+.picture{
+    display: block;
+    width: 50%;
+    margin-left: 25%
+    
+}
+
+/*----site map----*/
+li.sitemap{
+    margin-left: 10%;
+    font-size: 18px;
+    font-weight: bold;
+}
+ul.sitemap{
+    font-size: 18px;
+    font-weight: bold;
+}
+.sitemap a{
+    color: black;
+}
+.paddingaround{
+    padding: 40px 0;
+    
+}
+/*---Introduction to DM-----*/
+
+.maingrid{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 30px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 50px;
+}
+iframe{
+    display: block;
+    width: 100%;
+    border: 0;
+    height: 300px;
+    
+}
+
+
+
+/*------storytelling*--------*/
+.picture_left{
+    float: none;
+    width: 50%;
+    height: 30%;
+    margin: 5% 25%;
+    
+}
+/*---users page---*/
+
+
+#data{
+    font-size: 18px;
+    margin-left: 20%;
+}
+
+.padding_around{
+    padding: 40px;
+    
+}
+/*---contacts page---*/
+.table_style{
+    width: 300px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 25%;
+    
+}
+td.centre{
+    text-align: center;
+}
+
+table.borderless, td.borderless{
+    border-style: hidden;
+}
+.icon{
+    display: block;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.ph_num {
+   width: 150px;
+    color: black;
+    text-decoration: underline;
+    
+}
+p.ph_num:hover{
+    color: orange;
+}
+#phone{
+   width: 150px;
+    color: black; 
+}
+
+@media only screen and (max-width: 768px) {
+  /* For small display: */
+    li.menu {        /*nav*/
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 20px;
+        margin-bottom: 25px;    /*header*/
+    }
+    h3 {
+        font-size: 18px;
+    }
+    #logo {
+        max-width: 80%;
+    }
+    #tud {
+        font-size: 18px;         /*header*/
+    }
+    img.zoom {               /*web 1*/
+        width: 50%;
+    }
+    h6.text_right a.pdf_link {  /*footer*/
+        font-size: 18px;
+    }
+
+    .box {
+        width: 100%;
+    }
+    #cdm {
+    margin-top: 0px;
+    }
+    .maingrid{
+    margin-left: -20px;  /*intro to DM*/
+    grid-row-gap: 1%;
+}
+    p.ph_num{
+        font-size: 13px; /*contact page*/
+    }
+   
+    #phone{
+       font-size: 13px; /*contact page*/
+    }
+    h4{
+        font-size: 18px;
+    }
+    iframe {
+        height:auto;
+    }
+    .maingrid{
+        padding-left: 5px;
+    }
+    .table_centre{
+    margin-left: 1px;
+}
+}
+
+
+
+
